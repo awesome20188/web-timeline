@@ -2,7 +2,7 @@
 	{
 		"name": "Project 3",
 		"description": "Sample description 3",
-		"date": "4/02/16",
+		"date": "1/01/1961",
 		"links": [
 			["Github", "www.github.com"],
 			["Multiple", "www.github.com"]
@@ -11,7 +11,7 @@
 	{
 		"name": "Project 4",
 		"description": "Sample description 4",
-		"date": "4/03/16",
+		"date": "1/01/1981",
 		"links": [
 			["Github", "www.github.com"],
 			["Multiple 1", "www.github.com"],
@@ -21,7 +21,7 @@
 	{
 		"name": "Project 1",
 		"description": "Sample description 1",
-		"date": "3/25/11",
+		"date": "2000",
 		"links": [
 			["Github", "www.github.com"]
 		]
@@ -34,13 +34,7 @@
 			["Github", "www.github.com"]
 		] 
 	},
-	{
-		"name": "Project 5",
-		"description": "",
-		"date": "2018",
-		"onlyYear": "true",
-		"links": [] 
-	},
+	
 	{
 		"name": "Project 2",
 		"description": "Sample description 2",

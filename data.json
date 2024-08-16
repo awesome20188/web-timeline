@@ -1,0 +1,47 @@
+[
+	{
+		"name": "The First Bank Tellers",
+		"description": "The concept of bank tellers began with the establishment of the first modern bank, the Bank of England, in 1694. The role of bank tellers as a distinct position emerged around this time.",
+		"date": "1/01/1694",
+        "image": "https://www.british-history.ac.uk/sites/default/files/publications/pubid-339/images/fig160.gif",
+		"links": [
+			["More Information", "https://www.british-history.ac.uk/old-new-london/vol1/pp453-473"]
+		]
+	},
+	{
+		"name": "Bank Tellers in the 1800s",
+		"description": "In the 19th century, bank tellers were crucial in handling daily transactions, maintaining ledgers, and providing customer service as banks expanded their operations.",
+		"date": "1801",
+        "image": "https://www.fsbelmwood.com/assets/images/NoCrop_900x1200/12c6460e010e4150b2f5d3eade5bb5ab.jpg",
+		"links": [
+			["More Information", "https://www.pure.ed.ac.uk/ws/portalfiles/portal/8519537/bank_clerk_victorian_society.pdf"]
+		]
+	},
+	{
+		"name": "Introduction of ATMs",
+		"description": "The first Automated Teller Machine (ATM) was introduced by Barclays Bank in London in 1967. It became widely used in the 1970s, revolutionizing how customers accessed their funds.",
+		"date": "6/27/1967",
+        "image": "https://content.time.com/time/photoessays/2009/top10_money/atm.jpg",
+		"links": [
+			["More Information", "https://www.americanbanker.com/slideshow/the-evolution-of-the-atm#:~:text=The%20first%20ATMs,on%20Long%20Island%2C%20New%20York."]
+		]
+	},
+	{
+		"name": "Mobile and Online Banking",
+		"description": "Online banking began in the late 1990s, with banks offering internet access to accounts. Mobile banking apps became popular in the 2000s with rise ofphones. This reduced the need for in-person bank teller as customers managed their accounts remotely.",
+		"date": "1991",
+        "image": "https://nmgprod.s3.amazonaws.com/media/files/c4/27/c427e7dd8176bd68200ae23a86e87ddb/cover_image_1666097565.jpg.760x400_q85_crop_upscale.jpg",
+		"links": [
+			["More Information", "https://www.retaildive.com/ex/mobilecommercedaily/mobile-driven-consolidation-of-banking-industry-has-begun"]
+		]
+	},
+	{
+		"name": "Future of ATMs: Metaverse and AI",
+		"description": "The future of ATMs involves advanced technologies such as artificial intelligence and virtual reality. Concepts like the Metaverse and AI-driven ATMs are evolving in the 2020s. Bank tellers can stay relevant by learning to manage with these new technologies.",
+		"date": "2025",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU7076ML5we1jY4StpGMpa6MynWhT27DYMmw&s",
+		"links": [
+			["More Information", "https://www.forbes.com/sites/bernardmarr/2022/11/16/banking-in-the-metaverse--the-next-frontier-for-financial-services/"]
+		]
+	}
+]

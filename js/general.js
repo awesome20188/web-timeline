@@ -6,7 +6,7 @@ var DEFAULT_COLOR = 0; // only works if RANDOM_COLORS is false
 var RANDOM_SIDES = false; // randomize side timeline events are on
 var CHRONOLOGICAL = true; // false for oldest first; true for newest first
 var DIVIDERS = true; // false for no year dividers; true for year dividers
-var DATA_FILES = ["projects.json"]; 
+var DATA_FILES = ["data.json"]; 
 
 // https://stackoverflow.com/questions/3514784/what-is-the-best-way-to-detect-a-mobile-device-in-jquery
 var isMobile = false, windowDim; //initiate as false
@@ -54,7 +54,7 @@ function formatDate(date)
 	var monthIndex = date.getMonth();
 	var year = date.getFullYear();
 
-	return monthNames[monthIndex] +  ' ' + day + ', ' + year;
+	return year;
 }
 
 // function to convert date strings to date objects
@@ -130,26 +130,23 @@ function loadedData(data)
 		var dateClass = (i % 2 == 0 ? 
 						 "leftDate" : "rightDate")
 
-		// generate html code for links section
-		links = "<h3>"
-		e["links"].forEach(function(link){
-			links += "<span><a href=\"https://" + link[1] + "\">" + 
-					 link[0] + "</a></span>";
-		});
-		if (e["links"].length == 0)
-		{
-			links += "None";
-		}
-		links += "</h3>";
+		// generate HTML code for links section
+		//links = "<h3 style='text-align: center;'>";
+		//links += '<a href="https://www.pure.ed.ac.uk/ws/portalfiles/portal/8519537/bank_clerk_victorian_society.pdf">Text to display as the link</a>'
+		
+		//links += "</h3>";
+		var links = "<h3 style='text-align: center;'> <a href='https://www.pure.ed.ac.uk/ws/portalfiles/portal/8519537/bank_clerk_victorian_society.pdf'>More Information</a> </h3>"
+		
+			
+		//links = "<h3 style='text-align: center;'>";
 
 		dividerElem = false;
 		// add generated html code to document
 		if (e["date"].getFullYear() != lastYear)
 		{
 			yearCounter += 1;
-			lastYear = e["date"].getFullYear();	
-			var dividerColor = randColor();
-
+			lastYear = e["date"];
+			/*
 			if (COLOR_BY_YEAR)
 			{
 				dividerColor = colors[yearCounter % colors.length];
@@ -159,6 +156,7 @@ function loadedData(data)
 				"background: " + dividerColor + "\" id=\"" + 
 				lastYear + "\">" +
 				lastYear + "</div>";
+			*/
 		}
 
 		var eventColor = randColor();
@@ -196,6 +194,9 @@ function loadedData(data)
 					"<div class=\"info " + dataClass + "\">" + 
 					"<h1>" + e["name"] + "</h1>" +
 					"<p>" + e["description"] + "</p>" + 
+					// "<img src=\"" + e["image"] + "\" alt=\"Image for " + e["name"] + "\" style=\"max-width:70%; height:70%;\">" + 
+					"<img src=\"" + e["image"] + "\" alt=\"Image for " + e["name"] + "\" style=\"display: block; margin-left: auto; margin-right: auto; max-width: 70%; height: 70%;\">" +
+
 					links +
 					"</div>" +
 					"</div>";
